@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Accueil",
+        "url": "/"
+    },
+    {
+        "label": "Syntaxe de base",
+        "url": "/syntaxe-de-base/"
+    },
+    {
+        "label": "Titres",
+        "url": "/titres/"
+    },
+    {
+        "label": "Listes",
+        "url": "/listes/"
+    },
+    {
+        "label": "Images",
+        "url": "/images/"
+    },
+    {
+        "label": "Code",
+        "url": "/code/"
+    }
+]

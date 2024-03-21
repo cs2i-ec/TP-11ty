@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-6xl text-yellow-400 font-sans m-8 font-bold;
+    font-family: 'Honk'
+
+}
+
+h2 {
+    @apply text-4xl text-white font-bold
+}
+
+h3 {
+    @apply text-slate-300 text-4xl m-4
+}
+
+blockquote {
+    @apply text-xl text-cyan-400 shadow-md p-6 mx-20 border-l-4 border-cyan-500 rounded-md italic
+}
+
+ul {
+    @apply list-disc ms-8
+}
+
+body {
+    @apply text-white
+}
+
+@font-face {
+    font-family: "Honk";
+    src: url(/fonts/honk-regular-webfont.woff2) format("woff2");
+}
+
+a {
+    @apply text-purple-500
+}
+
+pre {
+    @apply m-6;
+}
+
+code {
+    @apply bg-slate-200 text-slate-800 p-1 rounded;
+}
+
+nav {
+    @apply bg-slate-950;
+}
+
+nav li {
+    @apply text-purple-500 bg-slate-900 hover:bg-yellow-500 list-none rounded-sm m-1;
+}
+
+nav a {
+    @apply p-3;
+}
+
+.logo-filter {
+    filter: invert(15%) sepia(89%) saturate(4699%) hue-rotate(263deg) brightness(88%) contrast(93%);
+}
+
+.icon-filter {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(6deg) brightness(99%) contrast(102%)
+}

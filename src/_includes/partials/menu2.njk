@@ -1,0 +1,7 @@
+<img src="/images/markdown.svg" class="logo-filter">
+<ul>
+    {% for menu in menuList %}
+    <li class="{% if page.url == menu.url %} bg-slate-400 {% endif %}"><a href="{{menu.url}}">{{ menu.label }}</a>
+    </li>
+    {% endfor%}
+</ul>
